@@ -111,6 +111,7 @@ $().ready(function () {
             for (let i = 0; i < snake.length; i++) {
                 ctx.fillStyle = snake[i].cor;
                 ctx.fillRect(snake[i].x, snake[i].y, snake[i].l, snake[i].a);
+                
             }
 
             // Desenha o objeto
